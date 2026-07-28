@@ -1,0 +1,29 @@
+# Dados brutos e processados (não versionar - arquivos grandes)
+data/raw/*.csv
+data/processed/*.csv
+data/external/*.csv
+
+# Ambiente virtual Python
+venv/
+.venv/
+env/
+
+# Cache e arquivos gerados pelo Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Modelos treinados (podem ser grandes)
+models/*.pkl
+models/*.joblib
+
+# Configurações de IDE
+.vscode/
+.idea/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
